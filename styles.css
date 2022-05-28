@@ -1,0 +1,137 @@
+body {
+    background-color: #a89274;
+}
+
+.menu {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    background-color: #927e63;
+    border-radius: 10px;
+}
+
+.menu-space {
+    width: 100%;
+}
+
+.menu-links {
+    display: flex;
+    flex-flow: row;
+    flex: 1;
+}
+
+.menu-link>a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #553c3f;
+    margin: 10px;
+    font-weight: bold;
+    white-space: nowrap;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.menu-link:hover {
+    text-shadow: 0px 0px 32px #ff0000;
+    transition: all 0.5s;
+}
+
+.logo {
+    height: 120px;
+    margin: 20px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #503c3f;
+    text-shadow: 0px 0px 50px #ff0000;
+}
+
+.page {
+    box-shadow: 0px 0px 50px #944a4a;
+    margin: 100px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #6d4248;
+}
+
+.page-title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #503c3f;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.page-subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #503c3f;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+
+.page-paragraph {
+    font-size: 20px;
+    margin: 15px;
+    line-height: 32px;
+}
+
+.page-image {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 64px #883a3a;
+}
+
+.contact {
+    text-align: right;
+    margin-right: 100px;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: #503c3f;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contact-link:hover {
+    text-shadow: 0px 0px 32px #ff0000;
+    transition: all 0.5s;
+}
+
+.info-label {
+    display: inline-block;
+    width: 150px;
+}
+
+.info-field {
+    width: 200px;
+    background-color: #995656;
+    border-radius: 5px;
+    height: 32px;
+}
+
+
+.send {
+    width: 200px;
+    background-color: #aa6f6f;
+    border-radius: 5px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.send:hover {
+    box-shadow: 0px 0px 64px #883a3a;
+    transition: all 0.5s;
+    color: #ffff
+
+
+}
